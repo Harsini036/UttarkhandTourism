@@ -14,7 +14,7 @@ app.use(express.static("public"));
 main().catch(err => console.log(err));
  
 async function main() {
-  await mongoose.connect('mongodb+srv://Neofragon1:Neohar678@cluster1.buvlfpj.mongodb.net/TourismDB');
+  await mongoose.connect(process.env.MONGODB_CONNECT_URI);
 }
  
 // Creating a schema (similar to collection)
