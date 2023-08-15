@@ -14,7 +14,7 @@ app.use(express.static("public"));
 main().catch(err => console.log(err));
  
 async function main() {
-  await mongoose.connect(process.env.MONGODB_CONNECT_URI);
+  await mongoose.connect(process.env.MONGO_URI);
 }
  
 // Creating a schema (similar to collection)
