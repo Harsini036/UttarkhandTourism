@@ -1,0 +1,164 @@
+style="background-image: url('images/bgmain1.png'); background-size: 100% 100%;
+  height: 600px; background-repeat: no-repeat;"
+
+  Display.ejs
+
+  <%- include('partials/header1') %>
+<body>
+
+    <!--Navbar section -->
+<div class="body-container1" style="background-image: url('images/main7.png'); background-size: 100% 85%;
+height: 600px; background-repeat: no-repeat;">
+<div class="container container1">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href=""><img src="images/CAPTURE.PNG" alt="" height="50px" width="50px" class="navlogo">UT Tourism</a>
+      
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      
+      <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+              
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/spots">Tourist Places</a>
+              
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/feedback">Feedback</a>
+              
+          </li>
+      </ul>
+      </div>
+  </nav>
+</div>
+<div class="content content1">
+    <h1>Let us explore tourist places in Uttranchal!</h1>
+</div>
+</div>
+
+
+<!-- Content Page -->
+<h1 class="main-heading">About Devbhoomi...</h1>
+<p class="main">
+    A mystical land of mountains and mythologies, exquisite landscapes and exhilarating adventure, and wellness and yoga, Uttarakhand has something to offer every traveller. Popularly known as Devbhoomi, or the land of gods, the state is framed by the Himalayas and divided into two main regions, Garhwal and Kumaon. While Uttarakhand has several well-known destinations like Nainital, Mussoorie, Corbett National Park and Auli, and pilgrimage sites like Kedarnath, Badrinath, Rishikesh and Haridwar, explore the 13 lesser-known destinations from the state's 13 districts.
+</p>
+
+
+<!--  Card section -->
+<div class="row">
+    <div class="col-xl-3 col-md-6 col-sm-12 card1">
+        <a href="#Agoda"><div class="polaroid">
+            <img src="images/TouristSpots/Agodamain.jpg" height="250" width="250" alt="Agoda" style="width:100%">
+            <div class="container1">
+              <p>Agoda, Uttaranchal</p>
+            </div>
+        </div></a>
+    </div>
+    <div class="col-xl-3 col-md-6 col-sm-12 card1">
+        <a href=""> <div class="polaroid">
+            <img src="images/TouristSpots/Bambamain.jpg" height="250" width="250" alt="Bamba" style="width:100%">
+            <div class="container1">
+              <p>Bamba, Uttaranchal</p>
+            </div>
+        </div></a>
+    </div>
+    <div class="col-xl-3 col-md-6 col-sm-12 card1">
+        <a href=""><div class="polaroid">
+            <img src="images/TouristSpots/Barsumain.jpg" height="250" width="250" alt="Barsu" style="width:100%">
+            <div class="container1">
+              <p>Barsu, Uttaranchal</p>
+            </div>
+        </div></a>
+    </div>
+    <div class="col-xl-3 col-md-6 col-sm-12 card1">
+        <a href=""><div class="polaroid">
+            <img src="images/TouristSpots/Darkotmain.jpg" height="250" width="250" alt="Darkot" style="width:100%">
+            <div class="container1">
+              <p>Darkot, Uttaranchal</p>
+            </div>
+        </div></a>
+    </div>
+</div>
+
+<div class="row">
+    
+    <div class="col-xl-3 col-md-6 col-sm-12 card1">
+        <a href=""><div class="polaroid">
+            <img src="images/TouristSpots/Gamsilmain.jpg" height="250" width="250" alt="Gamsil" style="width:100%">
+            <div class="container1">
+              <p>Gamsil, Uttaranchal</p>
+            </div>
+        </div></a>
+    </div>
+    <div class="col-xl-3 col-md-6 col-sm-12 card1">
+        <a href=""><div class="polaroid">
+            <img src="images/TouristSpots/Harsilmain.jpg" height="250" width="250" alt="Harsil" style="width:100%">
+            <div class="container1">
+              <p>Harsil, Uttaranchal</p>
+            </div>
+        </div></a>
+    </div>
+    <div class="col-xl-3 col-md-6 col-sm-12 card1">
+        <a href=""><div class="polaroid">
+            <img src="images/TouristSpots/ChamoliMain.jpg" height="250" width="250" alt="Chamoli" style="width:100%">
+            <div class="container1">
+              <p>Chamoli, Uttaranchal</p>
+            </div>
+        </div></a>
+    </div>
+    <div class="col-xl-3 col-md-6 col-sm-12 card1">
+        <a href=""><div class="polaroid">
+            <img src="images/TouristSpots/DehradunMain.jpg" height="250" width="250" alt="Dehradun" style="width:100%">
+            <div class="container1">
+              <p>Dehradun, Uttaranchal</p>
+            </div>
+        </div></a>
+    </div>
+</div>
+
+<div class="row">
+    
+    <div class="col-xl-3 col-md-6 col-sm-12 card1">
+        <a href=""><div class="polaroid">
+            <img src="images/TouristSpots/HaldwaniMain.jpg" height="250" width="250" alt="Haldwani" style="width:100%">
+            <div class="container1">
+              <p>Haldwani, Uttaranchal</p>
+            </div>
+        </div></a>
+    </div>
+    <div class="col-xl-3 col-md-6 col-sm-12 card1">
+        <a href=""><div class="polaroid">
+            <img src="images/TouristSpots/NanitalMain.jpg" height="250" width="250" alt="Nanital" style="width:100%">
+            <div class="container1">
+              <p>Nanital, Uttaranchal</p>
+            </div>
+        </div></a>
+    </div>
+    <div class="col-xl-3 col-md-6 col-sm-12 card1">
+        <a href=""><div class="polaroid">
+            <img src="images/TouristSpots/PantnagarMain.jpg" height="250" width="250" alt="Pantnagar" style="width:100%">
+            <div class="container1">
+              <p>Pantnagar, Uttaranchal</p>
+            </div>
+        </div></a>
+    </div>
+    <div class="col-xl-3 col-md-6 col-sm-12 card1">
+        <a href=""><div class="polaroid">
+            <img src="images/TouristSpots/RishikeshMain.jpg" height="250" width="250" alt="Rishikesh" style="width:100%">
+            <div class="container1">
+              <p>Rishikesh, Uttaranchal</p>
+            </div>
+        </div></a>
+    </div>
+</div>
+
+<%- include('SpotDetails')%>
+
+
+</body>
+<%- include('partials/footer') %>

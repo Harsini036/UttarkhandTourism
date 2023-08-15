@@ -1,0 +1,235 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*main logo */
+
+.navbar-brand img{
+  border-radius: 50%;
+}
+.body-container{
+   /*background-color: rgb(18, 20, 39);*/
+
+    color: aliceblue;
+    font-weight: 500;
+   
+}
+
+.content{
+    text-align: center;
+    font-weight: 800;
+    font-size: 3rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 80px;
+}
+.content h1,h2{
+ font-size: 3.5rem;
+ color: aliceblue;
+ text-shadow: 4px 4px 10px #110d0d;
+ 
+}
+
+
+
+.body-container h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;   
+}
+
+.navlogo{
+    margin-right: 20px;
+}
+.container1 {
+   /* background-color: rgb(255, 251, 251); */
+    font-size: 1.25rem;
+    width: 100%;
+}
+
+.container1 a{
+    color: rgb(238, 242, 246);
+}
+
+.container1 a:hover{
+    color: rgb(209, 120, 19);
+    font-weight: 600px !important;
+}
+
+
+/*new navbar css*/
+.navbar{
+    text-align: center;
+}
+.nav-link{
+    font-size: 1.5rem !important;
+    color: aliceblue !important;
+    font-weight: 500 !important;
+}
+
+.nav-item a:hover{
+    color: #d46110 !important;
+    font-weight: 600px !important;
+}
+
+.navbar-brand{
+    font-size: 2rem !important;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+/*first para and second para in home page*/
+
+.mainimage1{
+    margin: 10%;   
+    margin-top: 11.5%;
+}
+
+.mainimage1 img{
+    border-radius: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mainimage2{
+    margin: 10%;  
+}
+
+.mainimage2 img{
+    border-radius: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#main1content{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    margin: 10%;
+    margin-left: 3%;
+    text-align: justify;
+}
+
+#main2content{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    margin: 7%;
+    text-align: justify;
+}
+
+#main1content h2,#main2content h2{
+    font-size: 2rem;
+    color: rgb(12, 36, 57);
+    text-shadow: 2px 2px 8px #a6b8b9;
+}
+
+#main1content h3, #main2content h3{
+    font-size: 1.5rem;
+}
+
+@media  (max-width: 1000px) {
+    #main1content,.mainimage2{
+        margin-left: 10%;
+    }
+
+    #main1content h3, #main2content h3{
+      font-size: 1.25rem;
+    }
+    .mainimage1 img,.mainimage2 img{
+        height: 400px;
+        width: 400px;
+    }
+}
+@media  (max-width: 900px) {
+  
+  .content h1{
+      margin-top: 10px;
+      font-size: 2.5rem;
+      text-align: center;
+      color: aliceblue;
+     text-shadow: 4px 4px 10px #110d0d;
+  }
+  
+}
+
+
+
+/*footer in home page*/
+
+footer{
+    
+    background-color: #034261;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color : white
+  }
+  
+  .footer-content{
+    display : flex;
+    align-items: center;
+    justify-content: content;
+    flex-direction: column;
+    text-align: center;
+  
+  }
+  
+  
+.footer-content h3{
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-weight :400;
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+  
+  .footer-content p{
+    font-family: 'Ysabeau Infant', sans-serif;
+    max-width: 500px;
+    margin:10px auto;
+    line-height: 28px;
+    font-size: 1rem;
+  }
+  
+  .socialmedia{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+  }
+  
+  .socialmedia li{
+    font-family: 'Ysabeau Infant', sans-serif;
+    margin: 0 10px;
+  }
+  .socialmedia a{
+    text-decoration: none;
+    color: white;
+  }
+  .socialmedia a i{
+    font-size: 1.1rem;
+  }
+  
+  .socialmedia a:hover{
+    color: rgb(148, 214, 24);
+  }
+  
+  .footer-bottom{
+    background:black ;
+    width : 100vw;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .footer-bottom p{
+    font-size: 1rem;
+    word-spacing: capitalize;
+    text-transform: capitalize;
+  }
+  
+  .footer-bottom span{
+    text-transform: uppercase;
+    opacity: .5;
+    font-weight: 200;
+  }
+
+
+
+  

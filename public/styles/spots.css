@@ -1,0 +1,204 @@
+h4{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+@media (min-width: 992px){
+   .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+   }
+}
+
+p.main{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    width: 80%;
+    margin:0% 10%;
+    margin-bottom: 5%;
+}
+
+h1.main-heading{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    width: 80%;
+    margin:0% 10%;
+}
+
+.content1 h1{
+    font-size: 3.5rem;
+    text-align: center;
+    color: aliceblue;
+   text-shadow: 4px 4px 10px #110d0d;
+}
+.content2 h1{
+    font-size: 3.5rem;
+    text-align: center;
+    color: aliceblue;
+   text-shadow: 2px 2px 8px #110d0d;
+   padding-bottom: 7%;
+}
+
+div.polaroid {
+    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  
+div.container1{
+    padding: 20px;  
+}
+.card1{
+    margin: 0%;  
+}
+
+.card1 a{
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: #21132c;
+    font-weight: 600;
+    
+}
+
+.card1:hover{
+    transform: scale(1.1);
+} 
+.row{
+    margin: 0% 1.5%;
+    margin-bottom: 2%;
+}
+
+@media  (max-width: 900px) {
+    .body-container1 {
+        background-size: 100% 100% !important;
+    }
+    .content1 h1{
+        margin-top: 10px;
+        font-size: 2.5rem;
+        text-align: center;
+        color: aliceblue;
+       text-shadow: 4px 4px 10px #110d0d;
+    }
+    .content2 h1{
+        font-size: 2.5rem;
+        
+    }
+    .row{
+        margin: 1%;
+    }
+    .card1{
+        margin: 2% 2%;
+    }
+    p.main{
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+        width: 80%;
+        margin:10%;
+        margin-bottom: 5%;
+        margin-top: 2%;
+    }
+    
+    h1.main-heading{
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        width: 80%;
+        margin:10%;
+        margin-bottom: 0%;
+    }
+    
+
+}
+
+
+/* Details of each places */
+div.Details{
+    font-family: 'Nunito', sans-serif;
+    width: 80%;
+    margin:2.5% 10%;
+    border: 2px solid black;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1%;
+    /* border: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.Details h2{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: rgb(36, 56, 57);
+    text-shadow: 1px 1px 1px rgb(176, 169, 169) !important;
+}
+
+.Details h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.35rem;
+    color: rgb(4, 5, 5);
+    text-align: justify;
+}
+
+h2.spot-titles{
+    text-align: center;
+    font-size: 2rem;
+    color: #21132c;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px wheat;
+}
+
+
+/***** spot conten**/
+.spot-content{
+    margin-top: 1%;
+    padding: 3% 5%;
+}
+
+/*** carousel design ***/
+
+.carousel-spots{
+    margin : 7% 0%;
+    border: 5px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    height: 75%;
+}
+
+
+/***** dark and white ***/
+
+div.Dark{
+    background-color: #091f2a;
+    width: 80%;
+    margin:2.5% 10%;
+    border: 2px solid black;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div.White{
+    background-color:#f4f6fd;
+}
+
+.Dark.Details h2{
+    color: rgb(254, 255, 255);
+}
+
+.Dark.Details h3{
+    color: rgb(214, 220, 226);
+}
+
+@media  (max-width: 900px) {
+   div.Details h3{
+    font-size: 1rem;
+   }
+   div.carousel-spots{
+    height: 70%;
+}
+}
+
+
