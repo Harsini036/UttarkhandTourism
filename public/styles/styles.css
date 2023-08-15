@@ -108,7 +108,7 @@ body{
 #main2content{
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
-    margin: 7%;
+    margin: 10%;
     text-align: justify;
 }
 
@@ -131,8 +131,10 @@ body{
       font-size: 1.25rem;
     }
     .mainimage1 img,.mainimage2 img{
-        height: 400px;
-        width: 400px;
+        height: 35vh;
+        width: 70%;
+        margin: 5% 15%;
+    
     }
 }
 @media  (max-width: 900px) {
